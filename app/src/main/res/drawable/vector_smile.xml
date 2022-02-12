@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportHeight="100"
+    android:viewportWidth="100">
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M 50,50 m -48 ,0 a 48,48 0 1,0 96,0 a 48,48 0 1,0 -96,0"/>
+    <path
+        android:name="eye_left"
+        android:pathData="M 28,40 Q 36,50 43,40"
+        android:strokeColor="#8BC34A"
+        android:strokeLineCap="round"
+        android:strokeWidth="4"/>
+    <path
+        android:name="eye_right"
+        android:pathData="M 58,40 Q 66,50 73,40"
+        android:strokeColor="#8BC34A"
+        android:strokeLineCap="round"
+        android:strokeWidth="4"/>
+    <path
+        android:name="smile"
+        android:pathData="M 30,75 Q 50,55 70,75"
+        android:strokeColor="#8BC34A"
+        android:strokeLineCap="round"
+        android:strokeWidth="4"/>
+</vector>
